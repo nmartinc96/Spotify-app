@@ -1,4 +1,4 @@
-import presentation.SongView;
+import features.songs.presentation.SongView;
 
 
 public class Main {

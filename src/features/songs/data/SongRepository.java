@@ -1,6 +1,6 @@
-package data;
+package features.songs.data;
 
-import domain.Song;
+import features.songs.domain.Song;
 
 import java.util.ArrayList;
 

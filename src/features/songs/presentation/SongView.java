@@ -1,7 +1,7 @@
-package presentation;
+package features.songs.presentation;
 
-import domain.GetSongsUseCase;
-import domain.Song;
+import features.songs.domain.GetSongsUseCase;
+import features.songs.domain.Song;
 
 import java.util.ArrayList;
 

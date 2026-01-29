@@ -1,9 +1,8 @@
-package domain;
+package features.songs.domain;
 
-import data.SongRepository;
+import features.songs.data.SongRepository;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class GetSongsUseCase {
 
@@ -12,6 +11,7 @@ public class GetSongsUseCase {
     public GetSongsUseCase (SongRepository songRepository){
         this.songRepository
     }
+
     public ArrayList <Song> execute () {
 
         return songRepository.findAll();
